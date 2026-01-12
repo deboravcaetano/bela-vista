@@ -39,9 +39,9 @@ bela-vista/
 └── README.md
 ```
 
-## Autores <img src="https://emojis.slackmojis.com/emojis/images/1643511735/40714/computer.gif?1643511735" width="25"/> <br>
+##  <img src="https://emojis.slackmojis.com/emojis/images/1643511735/40714/computer.gif?1643511735" width="25"/> Autores
 
-**Débora Caetano** - [@deboravcaetano](https://github.com/deboravcaetano)
-**Gonçalo Fernandes** - [@gxnca](https://github.com/gxnca)
+**Débora Caetano** - [@deboravcaetano](https://github.com/deboravcaetano) <br>
+**Gonçalo Fernandes** - [@gxnca](https://github.com/gxnca) <br>
 **Enrico Prazeres** - [@enricoprazeres](https://github.com/enricoprazeres)
 
