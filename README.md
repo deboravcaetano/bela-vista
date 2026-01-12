@@ -38,3 +38,10 @@ bela-vista/
 ├── relatorio-bd.pdf             
 └── README.md
 ```
+
+## Autores <img src="https://emojis.slackmojis.com/emojis/images/1643511735/40714/computer.gif?1643511735" width="25"/> <br>
+
+**Débora Caetano** - [@deboravcaetano](https://github.com/deboravcaetano)
+**Gonçalo Fernandes** - [@gxnca](https://github.com/gxnca)
+**Enrico Prazeres** - [@enricoprazeres](https://github.com/enricoprazeres)
+
