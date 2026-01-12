@@ -1,4 +1,4 @@
-# bela-vista ![Old Man Yells at MySQL](https://emojis.slackmojis.com/emojis/images/1690510612/67209/old-man-yells-at-mysql.gif?1690510612)
+# bela-vista <img src="https://emojis.slackmojis.com/emojis/images/1690510612/67209/old-man-yells-at-mysql.gif?1690510612" width="25"/> <br>
 
 Sistema de base de dados para catalogação de viagens virtuais, desenvolvido como projeto da disciplina de Bases de Dados.
 
@@ -7,7 +7,7 @@ Sistema de base de dados para catalogação de viagens virtuais, desenvolvido co
 ![Diagrama ER](modelo-conceptual/ModeloConceptualBelaVista.png)
 
 ## Modelo Lógico
-![Diagrama ER](modelo-logico/ModeloLógicoBVAT.png)
+![Diagrama L](modelo-logico/ModeloLógicoBVAT.png)
 
 
 ## Estrutura do projeto
