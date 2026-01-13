@@ -1,0 +1,75 @@
+group: BelaVista
+
+-- Tabela Utilizador
+Utilizador = {
+  Id:number, Nome:string, Idade:number, Email:string, Telefone:string, Admin:number
+  1, 'Débora Caetano', 19, 'debora.caetano@email.com', '912345678', 0
+  2, 'Gonçalo Fernandes', 78, 'gonçalo.fernandes@email.com', '934567890', 1
+  3, 'Jonas Johanes', 22, 'jonas.johanes@email.com', '914567890', 0
+}
+
+-- Tabela Organizacao
+Organizacao = {
+  Id:number, Nome:string
+  1, 'CeBELUM'
+  2, 'CeSIUM'
+  3, 'BestTravel'
+}
+
+-- Tabela UtilizadorPertenceOrganizacao
+UtilizadorPertenceOrganizacao = {
+  Id_Utilizador:number, Id_Organizacao:number
+  2, 2
+  3, 2
+  2, 3
+}
+
+-- Tabela Viagem
+Viagem = {
+  Id:number, Titulo:string, Descricao:string
+  1, 'Tour pelo Douro', 'Viagem de dia inteiro pelo Vale do Douro com visita a quintas'
+  2, 'Roteiro Histórico Porto', 'Descoberta dos principais monumentos históricos do Porto'
+}
+
+-- Tabela ViagemMencionaOrganizacao
+ViagemMencionaOrganizacao = {
+  Id_Viagem:number, Id_Organizacao:number
+  1, 1
+  2, 1
+  1, 3
+}
+
+-- Tabela DiaDeViagem
+DiaDeViagem = {
+  Data:string, Id_Viagem:number, Custo:number, Alojamento:string, Transporte:string
+  '2025-03-15', 1, 75.50, 'Hotel Douro Vista', 'Autocarro turístico'
+  '2025-03-20', 2, 45.00, null, 'A pé'
+  '2025-03-21', 2, 40.00, null, 'Metro'
+}
+
+-- Tabela PontoDeInteresse
+PontoDeInteresse = {
+  Id:number, Nome:string, Localizacao:string, Descricao:string, Horario:string, Data:string, Id_Viagem:number
+  1, 'Quinta do Vesúvio', 'Douro', 'Quinta vinícola com provas de vinho', '09:00:00', '2025-03-15', 1
+  2, 'Torre dos Clérigos', 'Porto Centro', 'Monumento icónico do Porto', '09:00:00', '2025-03-20', 2
+  3, 'Livraria Lello', 'Porto Centro', 'Uma das livrarias mais bonitas do mundo', '10:00:00', '2025-03-20', 2
+  4, 'Palácio da Bolsa', 'Porto Centro', 'Um centro muito bonito', '14:00:00', '2025-03-21', 2
+}
+
+-- Tabela Fotografias
+Fotografias = {
+  Id_Fotografia:number, Id_PontoInteresse:number, Url_fotografia:string
+  1, 1, 'https://fotos.belavista.com/douro/quinta-vesuvio-1.jpg'
+  2, 2, 'https://fotos.belavista.com/porto/torre-clerigos-exterior.jpg'
+  3, 2, 'https://fotos.belavista.com/porto/torre-clerigos-vista.jpg'
+  4, 3, 'https://fotos.belavista.com/porto/lello-escadaria.jpg'
+  5, 4, 'https://fotos.belavista.com/porto/palacio-bolsa.jpg'
+}
+
+-- Tabela ViagemRealizadaUtilizador
+ViagemRealizadaUtilizador = {
+  Id_Viagem:number, Id_Utilizador:number, Cargo:string, Avaliacao_Descritiva:string, Avaliacao_Quantitativa:number
+  1, 1, 'organizador', 'Experiência maravilhosa! Tudo muito bem organizado.', 5
+  1, 2, 'participante', 'Adorei as quintas e as paisagens do Douro.', 5
+  2, 3, 'organizador', 'Porto é sempre uma boa escolha.', 4
+}
