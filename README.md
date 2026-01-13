@@ -22,7 +22,10 @@ bela-vista/
 ├── modelo-logico/
 │   ├── ModeloLógicoBV.png                
 │   ├── ModeloLógicoBVAT.png              
-│   └── ModeloLógicoBelaVista.mwb        
+│   └── ModeloLógicoBelaVista.mwb
+|
+├── relaX/
+│   ├── script_relax.txt        
 │
 ├── sql/
 │   ├── creation.sql             
